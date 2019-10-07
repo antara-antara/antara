@@ -25,14 +25,14 @@ font-family: Garamond, Times, serif;
   width: 100%;
   height: auto;
   background-color: white;
-  margin: 1% 19%;
+  margin: 1% 21.7%;
 }
 
 .videoWrapper {
 	position: relative;
-	padding-bottom: 45%; /* 16:9 */
+	padding-bottom: 41%; /* 16:9 */
 	padding-top: 25px;
-  width: 62%;
+  width: 56.5%;
 	height: 0;
 }
 
