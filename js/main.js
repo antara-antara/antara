@@ -3,7 +3,7 @@ $(document).ready(() => {
 $('.button').on('click', () => {
 
     setTimeout(function(){
-            window.open('./between.html', '_self')}, 800)
+            window.open('./between.html', '_self')}, 600)
 });
 
 });
