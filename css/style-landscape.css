@@ -20,6 +20,11 @@ overflow-x: hidden;
  overflow-x:scroll;
 }
 
+iframe {
+  width:0;
+  height:0;
+}
+
 .grid-container {
   display: grid;
   width: 100%;
