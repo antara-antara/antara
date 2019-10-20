@@ -66,26 +66,26 @@ table {
   overflow: visible;
 }
 
-
 .form {
   width: 100%;
   padding: 0 1.5%;
 }
 
-.input-box {
+textarea {
+  width: 80%;
   padding: 5px 10px;
-  background-color: #f0f0f0;
   font-family: Garamond, Times, serif;
   font-size: 1.17em;
-  overflow: scroll!important;
+  background: #f0f0f0;
 }
 
-.submit-button {
-  width: auto;
-  padding: 5px 15px;
-  margin-top: 10px;
+input[type="submit"] {
   font-family: Garamond, Times, serif;
-  font-size: 1.17em;
+  font-size: 1.05em;
+  display: block;
+  margin: 10px auto;
+  padding: 5px 10px;
+  width: auto;
   color: #383838;
   background-color: #f0f0f0;
 }
