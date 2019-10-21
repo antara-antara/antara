@@ -5,7 +5,7 @@ google.load('visualization', '1', {
 var visualization;
 
 function drawVisualization() {
-    var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1f5PaJ8T8IF4wXtLuj3xGSYLirpPB8VJ0ZeTSerqzUhQ/edit?usp=sharing');
+    var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1zp2CUEjGibvkCAbQmuhgzx9s2PYlw2dbu9cg45oTxv8/edit?usp=sharing');
     query.setQuery('SELECT B ORDER BY A DESC LIMIT 1');
     query.send(handleQueryResponse);
 }
