@@ -2,7 +2,7 @@ $(document).ready(() => {
 
 window.setTimeout(function(){
 
-    window.location.href = "./list.html";
+    window.location.href = "./end.html";
 
 }, 500);
 
